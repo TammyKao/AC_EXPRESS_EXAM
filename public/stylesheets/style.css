@@ -1,0 +1,13 @@
+/* button css style */
+.btn-primary {
+  color: black;
+  background-color: lightgray;
+  border: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  color: white;
+  background-color: gray;
+}

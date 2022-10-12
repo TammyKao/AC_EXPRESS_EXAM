@@ -11,6 +11,10 @@ app.engine('handlebars', exphbs({ defaultLayout: 'main' }))
 app.set('view engine', 'handlebars')
 
 
+// setting static files
+app.use(express.static('public'))
+
+
 // routes setting
 // front page
 app.get('/', (req, res) => {
